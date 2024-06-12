@@ -1,22 +1,13 @@
-Interpolare și Aproximare cu Polinoame Lagrange
+Interpolation and Approximation with Lagrange Polynomials
 
-Descrierea Proiectului
-Acest proiect implementează o aplicație de calcul numeric pentru interpolare și aproximare folosind polinoame Lagrange. Aplicația permite utilizatorilor să introducă un set de puncte și să genereze polinomul de interpolare Lagrange care trece prin aceste puncte. De asemenea, utilizatorii pot introduce un număr de puncte suplimentare pentru a vizualiza aproximarea punctelor necunoscute folosind același polinom.
+Project Description
+This project implements a numerical computation application for interpolation and approximation using Lagrange polynomials. The application allows users to input a set of points and generate the Lagrange interpolation polynomial that passes through these points. Additionally, users can input a number of additional points to visualize the approximation of unknown points using the same polynomial.
 
+Implemented Features
 
-Funcționalități Implementate
-Interpolare Lagrange: Generarea polinomului de interpolare Lagrange pentru un set de puncte introduse de utilizator.
-Aproximare: Generarea unui număr de puncte interpolare bazate pe polinomul Lagrange și vizualizarea acestora pe grafic.
-Animație: Vizualizarea animată a procesului de interpolare, arătând cum trece polinomul prin fiecare punct generat.
-Validare Continuă: Verificarea continuității funcției introduse de utilizator.
-Interfață Grafică: O interfață intuitivă și prietenoasă realizată folosind PyQt5 și Matplotlib pentru vizualizarea graficelor.
+Lagrange Interpolation: Generation of the Lagrange interpolation polynomial for a set of user-input points.
+Approximation: Generation of a number of interpolated points based on the Lagrange polynomial and visualization on a graph.
+Animation: Animated visualization of the interpolation process, showing how the polynomial passes through each generated point.
+Continuous Validation: Verification of the continuity of the user-input function.
+Graphical Interface: An intuitive and user-friendly interface created using PyQt5 and Matplotlib for graph visualization.
 
-Contribuțiile Membrilor Echipei
-- Radu Bogdan-Catalin
-	Dezvoltarea interfeței grafice cu PyQt5.
-	Dezvoltarea funcției de animație pentru vizualizarea interpolării Lagrange.
-	Animarea punctelor interpolate pe grafic.
-- Preda Ana-Maria
-	Realizarea funcției de validare a continuității.
-	Implementarea funcționalității de interpolare Lagrange.
-	Implementarea funcționalității de aproximare și generare a punctelor suplimentare.
